@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar_Home"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorPrimary"
+    android:minHeight="?attr/actionBarSize"
+    android:theme="?attr/actionLayout">
+
+    <EditText
+        android:id="@+id/edtTimKiem"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Nhập món tìm kiếm"
+        android:inputType="text"
+        android:textColor="@color/white"
+
+        />
+
+    <Button
+        android:id="@+id/btnTimKiem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:textSize="10pt"/>
+
+</androidx.appcompat.widget.Toolbar>

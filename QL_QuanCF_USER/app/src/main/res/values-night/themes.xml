@@ -1,0 +1,14 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Custom Toolbar Popup Theme -->
+    <style name="ThemeOverlay.AppCookie.Toolbar.Popup" parent="ThemeOverlay.AppCompat.Light">
+        <!-- Custom attributes for the popup theme -->
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">@color/white</item>
+        <!-- You can add more attributes here as needed -->
+    </style>
+</resources>

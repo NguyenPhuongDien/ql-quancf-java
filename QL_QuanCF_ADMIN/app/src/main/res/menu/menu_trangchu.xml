@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu  xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group >
+        <item
+            android:id="@+id/Ban"
+            android:title="Bàn"
+
+            />
+        <item
+            android:id="@+id/XuLy_DH"
+            android:title="Xử Lý Đơn Hàng"
+
+            />
+        <item
+            android:id="@+id/TT"
+            android:title="Thông Tin Cá Nhân"
+
+            />
+
+
+    </group>
+    <group >
+        <item
+            android:id="@+id/downloaded"
+            android:title="Downloaded Only"
+            android:checkable="true"
+            app:actionLayout="@layout/switch_trangchu"
+            />
+        <item
+            android:id="@+id/DX"
+            android:title="Đăng Xuất"
+            android:visible="false"
+            />
+
+    </group>
+
+</menu>

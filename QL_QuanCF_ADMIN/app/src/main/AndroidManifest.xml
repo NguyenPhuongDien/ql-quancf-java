@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DoAn1"
+        tools:targetApi="31">
+        <activity
+            android:name=".NhanVien.XoaNhanVien"
+            android:exported="false" />
+        <activity
+            android:name=".NhanVien.NhanVien_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".XuLyDonHang.ChiTietDatHang"
+            android:exported="false" />
+        <activity
+            android:name=".Mon.SuaMon"
+            android:exported="false" />
+        <activity
+            android:name=".Mon.XoaMon"
+            android:exported="false" />
+        <activity
+            android:name=".Mon.ThemMon"
+            android:exported="false" />
+        <activity
+            android:name=".Mon.Mon_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".LoaiMon.SuaLoai"
+            android:exported="false" />
+        <activity
+            android:name=".LoaiMon.XoaLoai"
+            android:exported="false" />
+        <activity
+            android:name=".LoaiMon.ThemLoai"
+            android:exported="false" />
+        <activity
+            android:name=".LoaiMon.LoaiMon_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Ban.Sua_Ban"
+            android:exported="false" />
+        <activity
+            android:name=".Ban.XoaBan"
+            android:exported="false" />
+        <activity
+            android:name=".Ban.ThemBan"
+            android:exported="false" />
+        <activity
+            android:name=".Ban.Ban_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".XuLyDonHang.XuLyDonHang"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.ThongKe"
+            android:exported="false" />
+        <activity
+            android:name=".NhanVien.ThongTinNV"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Admin"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.DK_TaiKhoanNV"
+            android:exported="false" />
+        <activity
+            android:name=".Ban.TatCaBan_Fragment"
+            android:exported="false" />
+        <activity
+            android:name=".HoaDon.HoaDon"
+            android:exported="false" />
+        <activity
+            android:name=".Mon.ChiTietMon"
+            android:exported="false" />
+        <activity
+            android:name=".Mon.LoaiMon_Fragment"
+            android:exported="false" />
+        <activity
+            android:name=".TrangChu"
+            android:exported="false" />
+        <activity
+            android:name=".Ban.Ban_Fragment"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/custom_edittext"
+        android:layout_gravity="center_horizontal"
+        android:elevation="4dp"
+        android:paddingBottom="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THÔNG TIN NHÂN VIÊN"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/tvMaNV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mã Nhân Viên: "
+            android:textSize="16sp"
+            android:textColor="@color/secondaryTextColor"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvTenNV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên Nhân Viên:"
+            android:textSize="16sp"
+            android:textColor="@color/secondaryTextColor"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvSDT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Số điện thoại: "
+            android:textSize="16sp"
+            android:textColor="@color/secondaryTextColor"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvDiaChi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Địa chỉ: "
+            android:textSize="16sp"
+            android:textColor="@color/secondaryTextColor"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvGmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gmail: "
+            android:textSize="16sp"
+            android:textColor="@color/secondaryTextColor"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CẬP NHẬT THÔNG TIN"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/primaryTextColor"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nhập tên NV: "
+            android:textSize="16sp"
+            android:textColor="@color/secondaryTextColor"
+            android:layout_marginBottom="16dp" />
+        <EditText
+            android:id="@+id/edtTenNV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập tên NV"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/custom_edittext"
+            android:padding="12dp"
+            android:inputType="textPersonName" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nhập số điện thoại: "
+            android:textSize="16sp"
+            android:textColor="@color/secondaryTextColor"
+            android:layout_marginBottom="16dp" />
+        <EditText
+            android:id="@+id/edtSDT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập số điện thoại"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/custom_edittext"
+            android:padding="12dp"
+            android:inputType="phone" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nhập địa chỉ: "
+            android:textSize="16sp"
+            android:textColor="@color/secondaryTextColor"
+            android:layout_marginBottom="16dp" />
+        <EditText
+            android:id="@+id/edtDiaChi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập địa chỉ"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/custom_edittext"
+            android:padding="12dp"
+            android:inputType="textPostalAddress" />
+
+        <Button
+            android:id="@+id/btnCapNhat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cập nhật"
+            android:layout_gravity="center_horizontal"
+            android:padding="12dp"
+            app:cornerRadius="20dp"
+            android:backgroundTint="@color/buttonColor"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>

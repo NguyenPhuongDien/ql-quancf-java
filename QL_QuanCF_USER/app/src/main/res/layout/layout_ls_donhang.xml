@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tvDonHang"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="10pt"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="#ee4d2d"
+        android:textColor="@color/white"
+        android:text="Lịch sử đơn hàng" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/lv_LSDonHang"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

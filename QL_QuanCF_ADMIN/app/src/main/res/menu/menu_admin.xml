@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu  xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group >
+
+        <item
+            android:id="@+id/Ban"
+            android:title="Bàn"
+
+            />
+        <item
+            android:id="@+id/LoaiMon"
+            android:title="Loại Món"
+
+            />
+        <item
+            android:id="@+id/Mon"
+            android:title="Món"
+
+            />
+        <item
+            android:id="@+id/XuLy_DH"
+            android:title="Xử Lý Đơn Hàng"
+
+            />
+
+
+
+        <item
+            android:id="@+id/ThongKe"
+            android:title="Thống kê"
+
+            />
+    </group>
+    <group >
+        <item
+            android:id="@+id/downloaded"
+            android:title="Downloaded Only"
+            android:checkable="true"
+            app:actionLayout="@layout/switch_trangchu"
+            />
+        <item
+            android:id="@+id/DK"
+            android:title="DK Tài Khoản"
+            android:visible="false"
+
+            />
+        <item
+            android:id="@+id/DX"
+            android:title="Đăng Xuất"
+            android:visible="false"
+            />
+
+
+
+    </group>
+
+</menu>

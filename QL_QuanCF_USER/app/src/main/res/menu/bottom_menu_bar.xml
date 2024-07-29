@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_Home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Home"
+        android:icon="@drawable/food"/>
+    <item
+        android:id="@+id/item_DonHang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Đơn hàng"
+        android:icon="@drawable/donhang"/>
+    <item
+        android:id="@+id/item_Profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Tôi"
+        android:icon="@drawable/profile1"/>
+</menu>

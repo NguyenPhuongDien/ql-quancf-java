@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/border"
+    android:layout_marginLeft="25px">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/imgAnhMon"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/imgfood_test_layout"/>
+
+    <TextView
+        android:id="@+id/tvTenMon"
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="10px"
+        android:text="Tên món ăn"
+        android:layout_marginLeft="15px"
+        android:textColor="#322E2E"
+        android:textSize="7pt"
+        android:textStyle="bold"
+        android:singleLine="false"
+        android:ellipsize="end"
+        android:maxLines="2"
+    />
+
+    <TextView
+        android:id="@+id/tvGiaBan"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:textColor="#ee4d2d"
+        android:textSize="7pt"
+        android:layout_marginLeft="15px"
+        android:text="100000Đ" />
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:background="#F1EBEB"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:paddingTop="15px"
+    android:paddingRight="10dp">
+
+
+    <ImageView
+        android:id="@+id/imgAnhMon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tvTenMon"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:maxHeight="50dp"
+                android:layout_weight="1"
+                android:text="TextView"
+                android:textSize="9pt"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="20px"
+                android:text="Số lượng"
+                android:textSize="9pt" />
+
+            <TextView
+                android:id="@+id/tvSoLuong"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="TextView"
+                android:textSize="9pt"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="20px"
+                android:text="Thành tiền"
+
+
+                android:textSize="9pt" />
+
+            <TextView
+                android:id="@+id/tvThanhTien"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:maxLines="2"
+                android:text="Đã xác nhận"
+                android:textColor="#ee4d2d"
+                android:textSize="9pt"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
+
